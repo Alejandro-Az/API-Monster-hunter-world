@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 20px;
+}
+
+.contenedor {
+    height: 95vh;
+    border: 2px solid black;
+    overflow-y: auto;
+}
+
+table {
+    border: 2px solid black;
+    text-align: center;
+}
+
+table thead th {
+    width: 100vw;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgba(18, 16, 18, 0.8);
+    color: white;
+}
+
+table tbody td {
+    background-color: rgba(18, 16, 18, 0.7);
+    height: 40px;
+    border: 2px solid black;
+    color: white;
+    font-size: 20px;
+}
+
+table tbody td:hover {
+    background-color: rgba(18, 16, 18, 0.5);
+    color: black;
+}
